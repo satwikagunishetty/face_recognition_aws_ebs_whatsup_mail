@@ -6,9 +6,9 @@ from email.mime.text import MIMEText
 
 def maili():
 
-    from_address = 'saipavan098765@gmail.com'
+    from_address = 'saipaxxxxxxx@gmail.com'
 
-    to_address = 'saipavan098765@gmail.com'
+    to_address = 'saipavxxxxx5@gmail.com'
 
     message = MIMEMultipart()
 
@@ -27,7 +27,7 @@ def maili():
 
     mail.starttls()
 
-    mail.login(from_address, '9848871539')
+    mail.login(from_address, 'pswd')
 
     mail.sendmail(from_address,to_address, message.as_string())
 
